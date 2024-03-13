@@ -186,7 +186,7 @@ export async function fetchCustomers() {
         name
       FROM customers
       ORDER BY name ASC
-    `;git h
+    `;
 
     const customers = data.rows;
     return customers;
